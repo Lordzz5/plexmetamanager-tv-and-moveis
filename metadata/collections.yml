@@ -1,0 +1,25 @@
+###########################
+#        Templates        #
+###########################
+templates:
+    Movie:
+        tmdb_collection: <<collection>>
+        tmdb_summary: <<summary>>
+        url_poster: <<poster>>
+        sort_title: ++++_<<collection_name>>
+        collection_order: release
+###########################
+#    Movie Collections    #
+###########################
+  James Bond:
+    template: {name: Movie, collection: 645, summary: 645, poster: https://theposterdb.com/api/assets/115662}
+  X-Men:
+    template: {name: Movie, collection: 748, summary: 748, poster: https://theposterdb.com/api/assets/20 }
+  Mission Impossible:
+    template: {name: Movie, collection: 87359, summary: 87359, poster: https://theposterdb.com/api/assets/65202}
+  Pirates of the Caribbean:
+    template: {name: Movie, collection: 295, summary: 295, poster: https://theposterdb.com/api/assets/71934}
+  Jurassic Park:
+    template: {name: Movie, collection: 328, summary: 328, poster: https://theposterdb.com/api/assets/45080}
+  Harry Potter:
+    template: {name: Movie, collection: 1241, summary: 1241, poster: https://theposterdb.com/api/assets/737}
