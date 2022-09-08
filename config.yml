@@ -87,8 +87,8 @@ webhooks:
   changes: notifiarr
   version:
 plex:                                           # Can be individually specified per library as well; REQUIRED for the script to run
-  url: http://orkenstein.com:32400
-  token: wqb3XHBdH_h-tLjTCnns
+  url: ######################
+  token: #####################
   timeout: 60
   clean_bundles: false
   empty_trash: false
@@ -145,8 +145,8 @@ anidb: # Not required for AniDB builders unless you want mature content
   password:
   language: en
 mal: # REQUIRED for this config to work - set up by following https://metamanager.wiki/en/latest/config/myanimelist.html
-  client_id: 6587c3eec1a3a501154af0adc6f78538
-  client_secret: 9bcbe9af6193ed051fff933c081e9b5669498db72ba83ba5af1b4c1d52d83269
+  client_id: #########################
+  client_secret: ###########################
   authorization:
     access_token:
     token_type:
